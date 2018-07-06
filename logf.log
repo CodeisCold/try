@@ -1,44 +1,83 @@
-2018-06-05 21:48:16: array (
-  'TTT' => '/tmp',
+2018-07-05 23:07:43: array (
   'USER' => 'www-data',
   'HOME' => '/var/www',
-  'HTTP_X_LANTERN_VERSION' => '4.7.0',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
   'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803263.906285,
+  'REQUEST_TIME' => 1530803263,
+)
+2018-07-05 23:07:43: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:07:43: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:07:43: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
   'HTTP_REFERER' => 'http://try.com/',
-  'HTTP_PROXY_CONNECTION' => 'keep-alive',
-  'HTTP_ORIGIN' => 'http://try.com',
-  'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded',
-  'HTTP_CACHE_CONTROL' => 'max-age=0',
-  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
-  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'HTTP_CONTENT_LENGTH' => '0',
-  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
   'HTTP_HOST' => 'try.com',
   'REDIRECT_STATUS' => '200',
   'SERVER_NAME' => 'try.com',
   'SERVER_PORT' => '80',
-  'SERVER_ADDR' => '192.168.68.130',
-  'REMOTE_PORT' => '58331',
-  'REMOTE_ADDR' => '192.168.68.1',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
   'SERVER_SOFTWARE' => 'nginx/1.4.6',
   'GATEWAY_INTERFACE' => 'CGI/1.1',
   'SERVER_PROTOCOL' => 'HTTP/1.1',
-  'DOCUMENT_ROOT' => '/home/ksun/ubuntu-server/try/server',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
   'DOCUMENT_URI' => '/index.php',
-  'REQUEST_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
   'SCRIPT_NAME' => '/index.php',
-  'CONTENT_LENGTH' => '0',
-  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
-  'REQUEST_METHOD' => 'POST',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
   'QUERY_STRING' => '',
-  'SCRIPT_FILENAME' => '/home/ksun/ubuntu-server/try/server/index.php',
   'FCGI_ROLE' => 'RESPONDER',
   'PHP_SELF' => '/index.php',
-  'REQUEST_TIME_FLOAT' => 1528206495.853914,
-  'REQUEST_TIME' => 1528206495,
+  'REQUEST_TIME_FLOAT' => 1530803263.9232399,
+  'REQUEST_TIME' => 1530803263,
 )
-2018-06-05 21:48:16: array (
+2018-07-05 23:07:43: array (
   'get' => 
   array (
   ),
@@ -49,47 +88,41 @@
   array (
   ),
 )
-2018-06-05 21:49:19: array (
-  'TTT' => '/tmp',
+2018-07-05 23:07:43: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:07:43: array (
   'USER' => 'www-data',
   'HOME' => '/var/www',
-  'HTTP_X_LANTERN_VERSION' => '4.7.0',
-  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
-  'HTTP_REFERER' => 'http://try.com/index.php',
-  'HTTP_PROXY_CONNECTION' => 'keep-alive',
-  'HTTP_ORIGIN' => 'http://try.com',
-  'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded',
-  'HTTP_CACHE_CONTROL' => 'max-age=0',
   'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
   'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'HTTP_CONTENT_LENGTH' => '0',
-  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
   'HTTP_HOST' => 'try.com',
   'REDIRECT_STATUS' => '200',
   'SERVER_NAME' => 'try.com',
   'SERVER_PORT' => '80',
-  'SERVER_ADDR' => '192.168.68.130',
-  'REMOTE_PORT' => '58462',
-  'REMOTE_ADDR' => '192.168.68.1',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
   'SERVER_SOFTWARE' => 'nginx/1.4.6',
   'GATEWAY_INTERFACE' => 'CGI/1.1',
   'SERVER_PROTOCOL' => 'HTTP/1.1',
-  'DOCUMENT_ROOT' => '/home/ksun/ubuntu-server/try/server',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
   'DOCUMENT_URI' => '/index.php',
-  'REQUEST_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
   'SCRIPT_NAME' => '/index.php',
-  'CONTENT_LENGTH' => '0',
-  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
-  'REQUEST_METHOD' => 'POST',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
   'QUERY_STRING' => '',
-  'SCRIPT_FILENAME' => '/home/ksun/ubuntu-server/try/server/index.php',
   'FCGI_ROLE' => 'RESPONDER',
   'PHP_SELF' => '/index.php',
-  'REQUEST_TIME_FLOAT' => 1528206559.4201529,
-  'REQUEST_TIME' => 1528206559,
+  'REQUEST_TIME_FLOAT' => 1530803263.9396241,
+  'REQUEST_TIME' => 1530803263,
 )
-2018-06-05 21:49:19: array (
+2018-07-05 23:07:43: array (
   'get' => 
   array (
   ),
@@ -100,47 +133,2346 @@
   array (
   ),
 )
-2018-06-05 21:49:33: array (
-  'TTT' => '/tmp',
+2018-07-05 23:07:43: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:07:57: array (
   'USER' => 'www-data',
   'HOME' => '/var/www',
-  'HTTP_X_LANTERN_VERSION' => '4.7.0',
-  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
-  'HTTP_REFERER' => 'http://try.com/index.php',
-  'HTTP_PROXY_CONNECTION' => 'keep-alive',
-  'HTTP_ORIGIN' => 'http://try.com',
-  'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded',
-  'HTTP_CACHE_CONTROL' => 'max-age=0',
   'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
   'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
   'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'HTTP_CONTENT_LENGTH' => '0',
-  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
   'HTTP_HOST' => 'try.com',
   'REDIRECT_STATUS' => '200',
   'SERVER_NAME' => 'try.com',
   'SERVER_PORT' => '80',
-  'SERVER_ADDR' => '192.168.68.130',
-  'REMOTE_PORT' => '58462',
-  'REMOTE_ADDR' => '192.168.68.1',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
   'SERVER_SOFTWARE' => 'nginx/1.4.6',
   'GATEWAY_INTERFACE' => 'CGI/1.1',
   'SERVER_PROTOCOL' => 'HTTP/1.1',
-  'DOCUMENT_ROOT' => '/home/ksun/ubuntu-server/try/server',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
   'DOCUMENT_URI' => '/index.php',
-  'REQUEST_URI' => '/index.php',
+  'REQUEST_URI' => '/',
   'SCRIPT_NAME' => '/index.php',
-  'CONTENT_LENGTH' => '0',
-  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
-  'REQUEST_METHOD' => 'POST',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
   'QUERY_STRING' => '',
-  'SCRIPT_FILENAME' => '/home/ksun/ubuntu-server/try/server/index.php',
   'FCGI_ROLE' => 'RESPONDER',
   'PHP_SELF' => '/index.php',
-  'REQUEST_TIME_FLOAT' => 1528206573.576005,
-  'REQUEST_TIME' => 1528206573,
+  'REQUEST_TIME_FLOAT' => 1530803277.4123399,
+  'REQUEST_TIME' => 1530803277,
 )
-2018-06-05 21:49:33: array (
+2018-07-05 23:07:57: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:07:57: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803277.4500329,
+  'REQUEST_TIME' => 1530803277,
+)
+2018-07-05 23:07:57: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:08:59: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803339.2720211,
+  'REQUEST_TIME' => 1530803339,
+)
+2018-07-05 23:08:59: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:08:59: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:08:59: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803339.334914,
+  'REQUEST_TIME' => 1530803339,
+)
+2018-07-05 23:08:59: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:08:59: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:08:59: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803339.3533111,
+  'REQUEST_TIME' => 1530803339,
+)
+2018-07-05 23:08:59: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:08:59: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:09:10: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803350.630199,
+  'REQUEST_TIME' => 1530803350,
+)
+2018-07-05 23:09:10: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:09:10: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:09:10: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803350.6600771,
+  'REQUEST_TIME' => 1530803350,
+)
+2018-07-05 23:09:10: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:09:10: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:09:10: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803350.679189,
+  'REQUEST_TIME' => 1530803350,
+)
+2018-07-05 23:09:10: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:09:10: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:09:43: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803383.8040659,
+  'REQUEST_TIME' => 1530803383,
+)
+2018-07-05 23:09:43: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:09:43: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:09:43: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803383.835968,
+  'REQUEST_TIME' => 1530803383,
+)
+2018-07-05 23:09:43: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:09:43: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:09:43: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803383.85375,
+  'REQUEST_TIME' => 1530803383,
+)
+2018-07-05 23:09:43: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:09:43: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:10:34: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803434.9111741,
+  'REQUEST_TIME' => 1530803434,
+)
+2018-07-05 23:10:34: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:10:34: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:10:34: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803434.9507811,
+  'REQUEST_TIME' => 1530803434,
+)
+2018-07-05 23:10:34: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:10:34: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:10:34: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803434.969739,
+  'REQUEST_TIME' => 1530803434,
+)
+2018-07-05 23:10:34: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:10:34: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:10:44: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803444.4988589,
+  'REQUEST_TIME' => 1530803444,
+)
+2018-07-05 23:10:44: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:10:44: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:10:44: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803444.526381,
+  'REQUEST_TIME' => 1530803444,
+)
+2018-07-05 23:10:44: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:10:44: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:10:44: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803444.5451341,
+  'REQUEST_TIME' => 1530803444,
+)
+2018-07-05 23:10:44: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:10:44: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:11:39: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803499.911931,
+  'REQUEST_TIME' => 1530803499,
+)
+2018-07-05 23:11:39: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:11:39: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '49887',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803499.947273,
+  'REQUEST_TIME' => 1530803499,
+)
+2018-07-05 23:11:39: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:12:52: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803572.2084291,
+  'REQUEST_TIME' => 1530803572,
+)
+2018-07-05 23:12:52: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:12:52: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803572.240592,
+  'REQUEST_TIME' => 1530803572,
+)
+2018-07-05 23:12:52: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:13:23: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803603.8776031,
+  'REQUEST_TIME' => 1530803603,
+)
+2018-07-05 23:13:23: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:13:23: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:13:23: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803603.9151559,
+  'REQUEST_TIME' => 1530803603,
+)
+2018-07-05 23:13:23: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:13:23: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:13:23: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803603.9353909,
+  'REQUEST_TIME' => 1530803603,
+)
+2018-07-05 23:13:23: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:13:23: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:13:28: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803608.7821791,
+  'REQUEST_TIME' => 1530803608,
+)
+2018-07-05 23:13:28: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:13:28: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:13:28: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803608.8143549,
+  'REQUEST_TIME' => 1530803608,
+)
+2018-07-05 23:13:28: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:13:28: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:13:28: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50336',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803608.8336191,
+  'REQUEST_TIME' => 1530803608,
+)
+2018-07-05 23:13:28: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:13:28: 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'172.17.0.1\' (using password: YES)'
+2018-07-05 23:14:40: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50488',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803680.807987,
+  'REQUEST_TIME' => 1530803680,
+)
+2018-07-05 23:14:40: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:14:40: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50488',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803680.8434989,
+  'REQUEST_TIME' => 1530803680,
+)
+2018-07-05 23:14:40: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:17:25: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50717',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803845.0539069,
+  'REQUEST_TIME' => 1530803845,
+)
+2018-07-05 23:17:25: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:17:25: 'SQLSTATE[HY000] [2002] Connection refused'
+2018-07-05 23:17:25: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50717',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803845.1023569,
+  'REQUEST_TIME' => 1530803845,
+)
+2018-07-05 23:17:25: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:17:25: 'SQLSTATE[HY000] [2002] Connection refused'
+2018-07-05 23:17:25: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50717',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530803845.138761,
+  'REQUEST_TIME' => 1530803845,
+)
+2018-07-05 23:17:25: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:17:25: 'SQLSTATE[HY000] [2002] Connection refused'
+2018-07-05 23:20:28: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50987',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804028.56111,
+  'REQUEST_TIME' => 1530804028,
+)
+2018-07-05 23:20:28: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:20:28: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:20:28: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50987',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804028.6499381,
+  'REQUEST_TIME' => 1530804028,
+)
+2018-07-05 23:20:28: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:20:28: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:20:28: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '50987',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804028.6782579,
+  'REQUEST_TIME' => 1530804028,
+)
+2018-07-05 23:20:28: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:20:28: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:21:55: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804115.795785,
+  'REQUEST_TIME' => 1530804115,
+)
+2018-07-05 23:21:55: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:21:55: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:21:55: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804115.818562,
+  'REQUEST_TIME' => 1530804115,
+)
+2018-07-05 23:21:55: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:21:55: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:21:55: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804115.848455,
+  'REQUEST_TIME' => 1530804115,
+)
+2018-07-05 23:21:55: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:21:55: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:22:46: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804166.8752079,
+  'REQUEST_TIME' => 1530804166,
+)
+2018-07-05 23:22:46: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:22:46: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:22:46: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804166.908633,
+  'REQUEST_TIME' => 1530804166,
+)
+2018-07-05 23:22:46: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:22:46: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:22:46: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804166.9271779,
+  'REQUEST_TIME' => 1530804166,
+)
+2018-07-05 23:22:46: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:22:46: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:22:54: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804174.8751309,
+  'REQUEST_TIME' => 1530804174,
+)
+2018-07-05 23:22:54: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:22:54: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:22:54: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804174.906332,
+  'REQUEST_TIME' => 1530804174,
+)
+2018-07-05 23:22:54: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:22:54: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:22:54: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51111',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804174.9262969,
+  'REQUEST_TIME' => 1530804174,
+)
+2018-07-05 23:22:54: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:22:54: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:25:02: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51387',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804302.3897381,
+  'REQUEST_TIME' => 1530804302,
+)
+2018-07-05 23:25:02: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:25:02: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:25:02: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51387',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804302.4240689,
+  'REQUEST_TIME' => 1530804302,
+)
+2018-07-05 23:25:02: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:25:02: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:25:02: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51387',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804302.437722,
+  'REQUEST_TIME' => 1530804302,
+)
+2018-07-05 23:25:02: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:25:02: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:29:05: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51762',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804545.736269,
+  'REQUEST_TIME' => 1530804545,
+)
+2018-07-05 23:29:05: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:29:05: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:29:05: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'text/css,*/*;q=0.1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51762',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/public/css/bootstrap.min.css',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804545.7747309,
+  'REQUEST_TIME' => 1530804545,
+)
+2018-07-05 23:29:05: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:29:05: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:29:05: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51762',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804545.792284,
+  'REQUEST_TIME' => 1530804545,
+)
+2018-07-05 23:29:05: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:29:05: 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client'
+2018-07-05 23:30:20: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51866',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804620.241761,
+  'REQUEST_TIME' => 1530804620,
+)
+2018-07-05 23:30:20: array (
+  'get' => 
+  array (
+  ),
+  'post' => 
+  array (
+  ),
+  'files' => 
+  array (
+  ),
+)
+2018-07-05 23:30:20: array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://try.com/',
+  'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'try.com',
+  'REDIRECT_STATUS' => '200',
+  'SERVER_NAME' => 'try.com',
+  'SERVER_PORT' => '80',
+  'SERVER_ADDR' => '192.168.116.128',
+  'REMOTE_PORT' => '51866',
+  'REMOTE_ADDR' => '192.168.116.1',
+  'SERVER_SOFTWARE' => 'nginx/1.4.6',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'DOCUMENT_ROOT' => '/mnt/hgfs/vmshared/try/public',
+  'DOCUMENT_URI' => '/index.php',
+  'REQUEST_URI' => '/favicon.ico',
+  'SCRIPT_NAME' => '/index.php',
+  'SCRIPT_FILENAME' => '/mnt/hgfs/vmshared/try/public/index.php',
+  'CONTENT_LENGTH' => '',
+  'CONTENT_TYPE' => '',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'FCGI_ROLE' => 'RESPONDER',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1530804620.2738259,
+  'REQUEST_TIME' => 1530804620,
+)
+2018-07-05 23:30:20: array (
   'get' => 
   array (
   ),
