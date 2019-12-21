@@ -7,8 +7,7 @@
  */
 require '../config.php';
 require '../common_functions.php';
-$logf = fopen(ROOT_DIR . 'logf.log', 'a');
-flock($logf, LOCK_EX);//只是测试用，并发上是有问题的
+
 logf($_SERVER);
 logf([
     'get' => $_GET,

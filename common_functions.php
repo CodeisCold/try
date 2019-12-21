@@ -6,6 +6,6 @@ function view($path, $params) {
 }
 
 function logf($text) {
-    global $logf;
-    fwrite($logf,  date('Y-m-d H:i:s') . ': ' . var_export($text, true) . "\n");
+    $path = ROOT_DIR . 'logf.log';
+    file_put_contents($path,  date('Y-m-d H:i:s') . ': ' . var_export($text, true) . "\n", FILE_APPEND);
 }
